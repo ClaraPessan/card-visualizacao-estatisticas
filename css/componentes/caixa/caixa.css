@@ -1,0 +1,16 @@
+.caixa {
+    background-color: hsl(244, 38%, 16%);
+    width: 800px;
+    height: 300px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+    .caixa {
+        flex-direction: column-reverse;
+        width: 300px;
+        height: 600px;
+    }
+}

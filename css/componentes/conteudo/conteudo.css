@@ -1,0 +1,66 @@
+.conteudo {
+    width: 45%;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulo {
+    font-size: 26px;
+}
+
+.titulo span{
+    color: hsl(277, 64%, 61%)
+}
+
+.descricao {
+    margin-top: 15px;
+    font-size: 13px;
+    line-height: 1.25rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.estatistica-lista {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    gap: 50px;
+}
+
+.estatistica-lista li span {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 10px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 800px) {
+    .conteudo {
+        text-align: center;
+        width: auto;
+        height: 300px;
+    }
+
+    .titulo {
+        font-size: 20px;
+    }
+    
+    .descricao {
+        font-size: 11px;
+    }
+
+    .estatistica-lista {
+        margin-top: 30px;
+        gap: 25px;
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+    .estatistica-lista span {
+        font-size: 8px;
+    }
+}
